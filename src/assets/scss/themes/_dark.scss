@@ -1,0 +1,37 @@
+html.dark {
+    --text-color: #ebebeb;
+    --body-bg: #292e39;
+    --body-bg-bold: #171c28;
+
+    /// Layout Header
+    --header-layout-logo: url("/src/assets/images/vasg_logo_black.png");
+    --header-layout-bg: linear-gradient(#171c28, #171c28ad);
+    --header-hover: #292e39;
+
+    /// Layout Sidebar
+    --sidebar-layout-bg: #171c28;
+    --sidebar-border-color: #636363;
+    --sidebar-active-bg: #ff8a283d;
+    --sidebar-hover-bg: transparent;
+    --sidebar-layout-logo: url("/src/assets/images/vasg_logo_black.png");
+
+    /// Page not found 404
+    --notfoundpage-blue: #ebebeb;
+    --notfoundpage-pink: #fdabaf;
+    --notfoundpage-white: #292e39;
+
+    /// Layout Footer
+    --footer-layout-bg: #171c28;
+    --footer-border-color: #636363;
+
+    /// Bordered Section
+    --border-section-color: #d9d9d9;
+
+    /// Form Control
+    --form-control-color: #dfdfdf;
+    --form-label-color: #dfdfdf;
+    --form-control-color-disabled: #ababab;
+    --form-control-border-color-disabled: #ababab;
+
+    --btn-vrtext-color: #fff;
+}

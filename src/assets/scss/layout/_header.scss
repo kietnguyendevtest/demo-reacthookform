@@ -1,0 +1,12 @@
+.header-container {
+   position: fixed;
+   inset: 0 0 auto 0;
+   z-index: var(--header-layout-z-index);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: var(--header-layout-height);
+   max-width: 100vw;
+   color: var(--text-color);
+   font-size: 2.4rem;
+}

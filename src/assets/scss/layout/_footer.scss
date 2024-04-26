@@ -1,0 +1,20 @@
+.footer-container {
+    height: var(--footer-layout-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    background: var(--footer-layout-bg);
+    border-top: 1px solid var(--footer-border-color);
+}
+
+#root:has(.login-container) .footer-container {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    color: var(--white);
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+    border: none;
+}
